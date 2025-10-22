@@ -10,7 +10,6 @@ const people = [
 console.log(people);
 
 // for 
-
 for (let i = 0; i < people.length; i++) {
      const person = people[i];
      console.log(person.name);
