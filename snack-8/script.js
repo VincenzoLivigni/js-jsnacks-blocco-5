@@ -28,14 +28,14 @@ console.log(students);
 for (let i = 0; i < students.length; i++) {
      const studente = students[i];
 
-     if (studente.class === "3C") {
+     if (studente.name === "Marco Lanci") {
       console.log(studente.class);
      }
 }
 
 // forEach
 students.forEach((alunno) => {
-       if (alunno.class === "3C") {
+       if (alunno.name === "Marco Lanci") {
            console.log(alunno.class);
      }
 })
@@ -43,6 +43,6 @@ students.forEach((alunno) => {
 
 // Find 
 const trovaClasse = students.find((scolaro) => {
-      return scolaro.class === "3C"
+      return scolaro.name === "Marco Lanci"
 })
 console.log(trovaClasse.class);
